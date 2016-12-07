@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">OBomPassageiro</string>
+
+    <string name="hello_blank_fragment_wait">Hello blank fragment WAIT</string>
+    <string name="hello_blank_fragment_share">Hello blank fragment SHARE</string>
+
+    <string name="select_destino">Selecione um destino</string>
+    <string name="share_info">Ative esta opção para compartilhar com outros usuários a localização do transporte que está utilizando.</string>
+    <string name="share_enable">Ser o bom passageiro</string>
+    <string name="share_switch_checked">Você é o bom passageiro</string>
+    <string name="share_switch_unchecked">Você não é mais o bom passageiro</string>
+    <string name="share_switch_fail">Falha na conexão</string>
+    <string name="connect_internet">CONECTAR</string>
+
+</resources>
