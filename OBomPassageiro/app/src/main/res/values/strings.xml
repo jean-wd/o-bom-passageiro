@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">OBomPassageiro</string>
+    <string name="google_app_id">AIzaSyA9xnuQo2rm-uLqV_bSjEWrfBaWIAsS2oI</string>
 
     <string name="hello_blank_fragment_wait">Hello blank fragment WAIT</string>
     <string name="hello_blank_fragment_share">Hello blank fragment SHARE</string>
@@ -10,6 +11,9 @@
     <string name="share_switch_checked">Você é o bom passageiro</string>
     <string name="share_switch_unchecked">Você não é mais o bom passageiro</string>
     <string name="share_switch_fail">Falha na conexão</string>
+    <string name="gps_fail">Sem sinal GPS</string>
+    <string name="connect_gps">ATIVAR</string>
     <string name="connect_internet">CONECTAR</string>
+    <string name="title_activity_maps_beta">Map</string>
 
 </resources>

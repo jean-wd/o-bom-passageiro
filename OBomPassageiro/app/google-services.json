@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "204722583238",
+    "project_id": "obompassageiro"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:204722583238:android:78fc795aa25b9b7d",
+        "android_client_info": {
+          "package_name": "br.edu.ufabc.padm.jean.obompassageiro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "204722583238-f40t3fc6s0th0a68hc6u35n100m29h1m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.edu.ufabc.padm.jean.obompassageiro",
+            "certificate_hash": "5A490D2F8B88DB0BF98EE38D5625428015B0DA02"
+          }
+        },
+        {
+          "client_id": "204722583238-6hntjibg6e7so587jnbmc9e7qm10a6a3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkLM6JdOrrNaQ4s4MH8gsk1qhlnSMygM4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,16 +1,23 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="@dimen/activity_horizontal_margin"
-    tools:context="br.edu.ufabc.padm.jean.obompassageiro.WaitFragment">
+    android:orientation="vertical">
 
     <Spinner
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/wait_spinner"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_weight="1" />
 
-</RelativeLayout>
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/fragment_embedded_map_view_mapview"
+        android:apiKey="AIzaSyA9xnuQo2rm-uLqV_bSjEWrfBaWIAsS2oI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:layout_weight="1" />
+
+</LinearLayout>
